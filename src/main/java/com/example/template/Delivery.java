@@ -27,6 +27,7 @@ public class Delivery {
             this.setDeliveryState(DeliveryStatus.DeliveryStarted.name());
         }
     }
+    
     @PostPersist
     private void callProductApi() {
 
